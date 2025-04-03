@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "programmatic-test": "mocha --reporter=mocha-tap-reporter"
+    "programmatic-test": "mocha --reporter=mocha-tap-reporter",
+    "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "mocha": "^11.1.0",
     "mocha-tap-reporter": "^0.1.3"
   }
 }
